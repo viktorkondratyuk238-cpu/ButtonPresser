@@ -1,0 +1,21 @@
+const int buttonPins[5] = {12, 13, 14, 15, 16};
+const int notes[5]      = {262, 294, 330, 349, 392}; // C4 D4 E4 F4 G4
+const int speakerPin    = 17;
+
+void setup() {
+  for (int i = 0; i < 5; i++) pinMode(buttonPins[i], INPUT_PULLUP);
+  ledcAttach(speakerPin, 2000, 8);
+}
+
+void loop() {
+  int pressed = -1;
+  for (int i = 0; i < 5; i++) {
+    if (digitalRead(buttonPins[i]) == LOW) { pressed = i; break; }
+  }
+
+  if (pressed >= 0) {
+    ledcWriteTone(speakerPin, notes[pressed]);
+  } else {
+    ledcWriteTone(speakerPin, 0);
+  }
+}
