@@ -5,6 +5,7 @@ and its super cool, and it will never see the real world but ill make it in KiCA
 Its powered with a simple 1S LiPo, charging it is on you it doesnt have a charging circuit.
 
 as for flashing the ESP to make it as simple as possible i decided that flashing it would officialy be a 2 to 3 man operation. the flashing will need 3 wires, so you just hold some jumpers on the board plugged into a UART like a CH340 and hope your hand doesnt slip. here is the step by step aswell as where each wire goes. 
+
 Make sure SW6 is on and the battery is unplugged.
 Press and hold SW4 (IO9). That’s the boot button.
 While holding SW4, plug the battery into J1. The chip starts in download mode.
