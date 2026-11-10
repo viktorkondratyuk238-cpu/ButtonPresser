@@ -13,7 +13,7 @@ Release SW4.
 Click Upload in the IDE
 Unplug the battery and the adapter, then plug the battery back in. The new code runs.
 
-Wire|	PCB end      |CH340 end
-1	  |GND	U1 pin 9 |(GND)
-2	  |RX	U1 pin 12  |(IO21/TXD)
-3	  |TX	U1 pin 11  |(IO20/RXD)
+Wire|	PCB end      |CH340 end                                                                                                                                                                                                   
+1	  |GND	U1 pin 9 |(GND)                                                                                                                                                                                                       
+2	  |RX	U1 pin 12  |(IO21/TXD)                                                                                                                                                                                                  
+3	  |TX	U1 pin 11  |(IO20/RXD)                                                                                                                                                                                                  
