@@ -18,5 +18,5 @@ Wire|	PCB end      |CH340 end
 2	  |RX	U1 pin 12  |(IO21/TXD)                                                                                                                                                                                                  
 3	  |TX	U1 pin 11  |(IO20/RXD)                                                                                                                                                                                                  
 
-and here is the picture in Fusion
+and here is the picture in Fusion  ik the image looks bad like its clipping through, trust me it doesnt tho (atelast think it doesnt)
 <img width="873" height="404" alt="image" src="https://github.com/user-attachments/assets/a23e69b5-471f-4d38-86c6-12bcb27b1c3c" />
