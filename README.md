@@ -20,3 +20,9 @@ Wire|	PCB end      |CH340 end
 
 and here is the picture in Fusion  ik the image looks bad like its clipping through, trust me it doesnt tho (atelast think it doesnt)
 <img width="873" height="404" alt="image" src="https://github.com/user-attachments/assets/a23e69b5-471f-4d38-86c6-12bcb27b1c3c" />
+
+BOM:
+the PCB
+3d enclosure
+301030 LiPo
+(soldering iron)
