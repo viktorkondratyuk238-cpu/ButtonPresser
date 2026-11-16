@@ -17,3 +17,6 @@ Wire|	PCB end      |CH340 end
 1	  |GND	U1 pin 9 |(GND)                                                                                                                                                                                                       
 2	  |RX	U1 pin 12  |(IO21/TXD)                                                                                                                                                                                                  
 3	  |TX	U1 pin 11  |(IO20/RXD)                                                                                                                                                                                                  
+
+and here is the picture in Fusion
+<img width="873" height="404" alt="image" src="https://github.com/user-attachments/assets/a23e69b5-471f-4d38-86c6-12bcb27b1c3c" />
