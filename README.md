@@ -26,4 +26,5 @@ BOM:
 the PCB
 3d enclosure
 301030 LiPo
-(soldering iron)
+CH340
+Jumpers
